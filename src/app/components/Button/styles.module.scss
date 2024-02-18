@@ -1,0 +1,61 @@
+.buttonOutlined {
+  border: 2px solid transparent;
+  border-radius: 16px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #333;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.buttonPrimary {
+  border: 2px solid transparent;
+  border-radius: 16px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #1a737c;
+  color: #fff;
+  border-color: transparent;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .buttonOutlined {
+    border: 2px solid transparent;
+    border-radius: 16px;
+    padding: 4px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #333;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .buttonPrimary {
+    border: 2px solid transparent;
+    border-radius: 16px;
+    padding: 4px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #1a737c;
+    color: #fff;
+    border-color: transparent;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

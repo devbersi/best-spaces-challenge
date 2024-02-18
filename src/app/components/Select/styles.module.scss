@@ -1,0 +1,13 @@
+.customSelect {
+  display: flex;
+  align-items: center;
+}
+
+.customSelect input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.customSelect label {
+  cursor: pointer;
+  font-size: 14px;
+}
